@@ -50,7 +50,5 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     }
-    
-
 }
 
