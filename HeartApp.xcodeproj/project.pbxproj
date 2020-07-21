@@ -11,7 +11,6 @@
 		563ED58424C775C500D335A9 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58324C775C500D335A9 /* BluetoothSerial.swift */; };
 		563ED58924C7770F00D335A9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58824C7770F00D335A9 /* MBProgressHUD.m */; };
 		563ED58B24C77DA800D335A9 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58A24C77DA800D335A9 /* ScannerViewController.swift */; };
-		563ED58D24C78EDC00D335A9 /* example.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 563ED58C24C78EDC00D335A9 /* example.rtf */; };
 		564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167024C725BD00BC6330 /* AppDelegate.swift */; };
 		564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167224C725BD00BC6330 /* SceneDelegate.swift */; };
 		564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */; };
@@ -50,7 +49,6 @@
 		563ED58724C7770E00D335A9 /* HeartApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		563ED58824C7770F00D335A9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		563ED58A24C77DA800D335A9 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
-		563ED58C24C78EDC00D335A9 /* example.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = example.rtf; sourceTree = "<group>"; };
 		564B166D24C725BD00BC6330 /* HeartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B167024C725BD00BC6330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564B167224C725BD00BC6330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		564B166F24C725BD00BC6330 /* HeartApp */ = {
 			isa = PBXGroup;
 			children = (
-				563ED58C24C78EDC00D335A9 /* example.rtf */,
 				563ED58824C7770F00D335A9 /* MBProgressHUD.m */,
 				563ED58724C7770E00D335A9 /* HeartApp-Bridging-Header.h */,
 				563ED58524C775FD00D335A9 /* MBProgressHUD.h */,
@@ -270,7 +267,6 @@
 			files = (
 				564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */,
 				564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */,
-				563ED58D24C78EDC00D335A9 /* example.rtf in Resources */,
 				564B167A24C725C600BC6330 /* Assets.xcassets in Resources */,
 				564B16AB24C7271400BC6330 /* Main.storyboard in Resources */,
 			);

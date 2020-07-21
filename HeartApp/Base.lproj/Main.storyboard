@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YdU-xo-D6K">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YdU-xo-D6K">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,14 +12,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="HeartApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue gradient" translatesAutoresizingMaskIntoConstraints="NO" id="mmv-ww-WDE">
-                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMb-Fn-WwW">
-                                <rect key="frame" x="93" y="333" width="228" height="230"/>
+                                <rect key="frame" x="73.5" y="299" width="228" height="69"/>
                                 <gestureRecognizers/>
                                 <string key="text">No Arrhythmias 
 Detected</string>
@@ -27,7 +27,7 @@ Detected</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="doc.text.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="teZ-mJ-wcd">
-                                <rect key="frame" x="20" y="78" width="104" height="109"/>
+                                <rect key="frame" x="16" y="34" width="112" height="109"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES" allowsDirectInteraction="YES"/>
@@ -42,7 +42,7 @@ Detected</string>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y02-Fu-lfo">
-                                <rect key="frame" x="26" y="184" width="92" height="44"/>
+                                <rect key="frame" x="26" y="140" width="92" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="SFp-Zt-SG2"/>
                                 </constraints>
@@ -51,7 +51,7 @@ Detected</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNY-0x-0iU">
-                                <rect key="frame" x="141" y="566" width="132" height="33"/>
+                                <rect key="frame" x="121.5" y="522" width="132" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Send Notification">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,15 +60,6 @@ Detected</string>
                                 <connections>
                                     <action selector="buttonPress:" destination="IUW-EW-oaa" eventType="touchUpInside" id="bXm-uT-FWg"/>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UV1-FP-xhT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyS-jx-cNa">
-                                <rect key="frame" x="234" y="178" width="125" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Bluetooth"/>
-                                <connections>
-                                    <segue destination="ErS-Q4-kJt" kind="presentation" id="s8h-80-LXh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -92,7 +83,14 @@ Detected</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KAc-UW-hAc"/>
+                    <navigationItem key="navigationItem" id="KAc-UW-hAc">
+                        <barButtonItem key="rightBarButtonItem" title="Bluetooth" id="2ZD-xM-ekD">
+                            <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="ErS-Q4-kJt" kind="show" id="lZi-4H-e1V"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="IUW-EW-oaa" userLabel="Exit" sceneMemberID="exit"/>
@@ -102,44 +100,44 @@ Detected</string>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="97.767857142857139"/>
+            <point key="canvasLocation" x="-326" y="654"/>
         </scene>
         <!--Record Table View Controller-->
         <scene sceneID="Vau-Z0-pVG">
             <objects>
                 <tableViewController id="mto-8I-kXY" customClass="RecordTableViewController" customModule="HeartApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="odw-7G-cgG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="CellPrototype" rowHeight="100" id="bRC-OG-okt" userLabel="CellPrototype" customClass="HistoryCellTableViewCell" customModule="HeartApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bRC-OG-okt" id="HO3-tv-Qdx">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGY-6i-ne1">
-                                            <rect key="frame" x="65" y="38" width="190" height="24"/>
+                                            <rect key="frame" x="61" y="38" width="155" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timeLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnp-1s-aGg">
-                                            <rect key="frame" x="272" y="49" width="75" height="20.5"/>
+                                            <rect key="frame" x="233" y="49" width="75" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOT-21-M3x">
-                                            <rect key="frame" x="257" y="12" width="105" height="22"/>
+                                            <rect key="frame" x="218" y="12" width="105" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waveform.path.ecg" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WMp-U4-VfO">
-                                            <rect key="frame" x="18" y="31" width="37" height="36"/>
+                                            <rect key="frame" x="14" y="31" width="37" height="36"/>
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" scale="large" weight="medium"/>
                                         </imageView>
@@ -182,34 +180,34 @@ Detected</string>
         <!--Scanning ...-->
         <scene sceneID="qOB-N7-sqd">
             <objects>
-                <viewController id="IFU-Gf-9J0" customClass="ScannerViewController" customModule="Serial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IFU-Gf-9J0" customClass="ScannerViewController" customModule="HeartApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JzP-hy-dyD"/>
                         <viewControllerLayoutGuide type="bottom" id="4UB-Kx-vda"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wns-x4-dRM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="le1-Lj-T1n">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="lRc-SE-14K">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lRc-SE-14K" id="fUr-fR-v4g">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Speaker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUf-er-giT">
-                                                    <rect key="frame" x="27" y="3" width="235" height="38"/>
+                                                    <rect key="frame" x="22" y="3" width="206" height="38"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI5-DZ-Av2">
-                                                    <rect key="frame" x="270" y="3" width="124" height="38"/>
+                                                    <rect key="frame" x="236" y="3" width="124" height="38"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="124" id="IdJ-n9-vRt"/>
                                                     </constraints>
@@ -264,32 +262,32 @@ Detected</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKZ-pM-gc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2841" y="869"/>
+            <point key="canvasLocation" x="2839" y="1049"/>
         </scene>
         <!--Bluetooth Serial-->
         <scene sceneID="ZFA-Ap-NmI">
             <objects>
-                <viewController id="ErS-Q4-kJt" customClass="SerialViewController" customModule="Serial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ErS-Q4-kJt" customClass="SerialViewController" customModule="HeartApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mf7-Uc-TKm"/>
                         <viewControllerLayoutGuide type="bottom" id="4Tw-L5-fB5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3SI-74-7ia">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypy-AW-Ywh">
-                                <rect key="frame" x="16" y="-8" width="382" height="760"/>
+                                <rect key="frame" x="12" y="-20" width="351" height="631"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQI-eT-x6n">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your message and hit 'Send'" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dOA-6o-gKW">
-                                        <rect key="frame" x="8" y="5" width="398" height="34"/>
+                                        <rect key="frame" x="8" y="5" width="359" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="send"/>
                                         <connections>
@@ -320,7 +318,7 @@ Detected</string>
                         <viewLayoutGuide key="safeArea" id="M56-BG-Ha6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bluetooth Serial" id="qpi-lh-Wht">
-                        <barButtonItem key="leftBarButtonItem" title="Connect" id="t6t-x2-1QM">
+                        <barButtonItem key="rightBarButtonItem" title="Connect" id="t6t-x2-1QM">
                             <connections>
                                 <action selector="barButtonPressed:" destination="ErS-Q4-kJt" id="DU8-DA-MM9"/>
                             </connections>
@@ -339,16 +337,15 @@ Detected</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AgD-rd-eyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="987" y="869"/>
+            <point key="canvasLocation" x="1010" y="1049"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8mm-Dh-1UZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LXM-cS-rP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ddk-QK-cDc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aNC-tB-cfQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -356,17 +353,17 @@ Detected</string>
                         <segue destination="IFU-Gf-9J0" kind="relationship" relationship="rootViewController" id="Svz-hX-Mvj"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXM-cS-rP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="869"/>
+            <point key="canvasLocation" x="1942" y="1049"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uEy-LA-XQJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q1u-7R-Hoy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YdU-xo-D6K" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9nB-A7-RaK">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -374,11 +371,12 @@ Detected</string>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5O9-4P-38T"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1u-7R-Hoy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-617" y="869"/>
+            <point key="canvasLocation" x="-1345" y="654"/>
         </scene>
     </scenes>
-    <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+    <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="blue gradient" width="1000" height="2059"/>
         <image name="doc.text.fill" catalog="system" width="115" height="128"/>
