@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563ED58224C774F200D335A9 /* SerialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58124C774F200D335A9 /* SerialViewController.swift */; };
+		563ED58424C775C500D335A9 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58324C775C500D335A9 /* BluetoothSerial.swift */; };
+		563ED58924C7770F00D335A9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58824C7770F00D335A9 /* MBProgressHUD.m */; };
+		563ED58B24C77DA800D335A9 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58A24C77DA800D335A9 /* ScannerViewController.swift */; };
+		563ED58D24C78EDC00D335A9 /* example.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 563ED58C24C78EDC00D335A9 /* example.rtf */; };
 		564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167024C725BD00BC6330 /* AppDelegate.swift */; };
 		564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167224C725BD00BC6330 /* SceneDelegate.swift */; };
 		564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */; };
@@ -14,8 +19,6 @@
 		564B167A24C725C600BC6330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B167924C725C600BC6330 /* Assets.xcassets */; };
 		564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B167C24C725C600BC6330 /* Preview Assets.xcassets */; };
 		564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B167E24C725C600BC6330 /* LaunchScreen.storyboard */; };
-		564B168B24C725C600BC6330 /* HeartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B168A24C725C600BC6330 /* HeartAppTests.swift */; };
-		564B169624C725C700BC6330 /* HeartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B169524C725C700BC6330 /* HeartAppUITests.swift */; };
 		564B16AB24C7271400BC6330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B16A924C7271400BC6330 /* Main.storyboard */; };
 		564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AD24C7280800BC6330 /* MainViewController.swift */; };
 		564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AE24C7280800BC6330 /* RecordTableViewController.swift */; };
@@ -41,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563ED58124C774F200D335A9 /* SerialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialViewController.swift; sourceTree = "<group>"; };
+		563ED58324C775C500D335A9 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		563ED58524C775FD00D335A9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		563ED58724C7770E00D335A9 /* HeartApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		563ED58824C7770F00D335A9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		563ED58A24C77DA800D335A9 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		563ED58C24C78EDC00D335A9 /* example.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = example.rtf; sourceTree = "<group>"; };
 		564B166D24C725BD00BC6330 /* HeartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B167024C725BD00BC6330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564B167224C725BD00BC6330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,11 +61,7 @@
 		564B167F24C725C600BC6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		564B168124C725C600BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		564B168624C725C600BC6330 /* HeartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		564B168A24C725C600BC6330 /* HeartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAppTests.swift; sourceTree = "<group>"; };
-		564B168C24C725C600BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		564B169124C725C600BC6330 /* HeartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		564B169524C725C700BC6330 /* HeartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAppUITests.swift; sourceTree = "<group>"; };
-		564B169724C725C700BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		564B16AA24C7271400BC6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		564B16AD24C7280800BC6330 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		564B16AE24C7280800BC6330 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
@@ -92,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				564B166F24C725BD00BC6330 /* HeartApp */,
-				564B168924C725C600BC6330 /* HeartAppTests */,
-				564B169424C725C700BC6330 /* HeartAppUITests */,
 				564B166E24C725BD00BC6330 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +115,11 @@
 		564B166F24C725BD00BC6330 /* HeartApp */ = {
 			isa = PBXGroup;
 			children = (
+				563ED58C24C78EDC00D335A9 /* example.rtf */,
+				563ED58824C7770F00D335A9 /* MBProgressHUD.m */,
+				563ED58724C7770E00D335A9 /* HeartApp-Bridging-Header.h */,
+				563ED58524C775FD00D335A9 /* MBProgressHUD.h */,
+				563ED58324C775C500D335A9 /* BluetoothSerial.swift */,
 				564B167024C725BD00BC6330 /* AppDelegate.swift */,
 				564B167224C725BD00BC6330 /* SceneDelegate.swift */,
 				564B167724C725BD00BC6330 /* ContentView.swift */,
@@ -134,27 +143,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		564B168924C725C600BC6330 /* HeartAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				564B168A24C725C600BC6330 /* HeartAppTests.swift */,
-				564B168C24C725C600BC6330 /* Info.plist */,
-			);
-			path = HeartAppTests;
-			sourceTree = "<group>";
-		};
-		564B169424C725C700BC6330 /* HeartAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				564B169524C725C700BC6330 /* HeartAppUITests.swift */,
-				564B169724C725C700BC6330 /* Info.plist */,
-			);
-			path = HeartAppUITests;
-			sourceTree = "<group>";
-		};
 		564B16AC24C7280800BC6330 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				563ED58A24C77DA800D335A9 /* ScannerViewController.swift */,
+				563ED58124C774F200D335A9 /* SerialViewController.swift */,
 				564B16AD24C7280800BC6330 /* MainViewController.swift */,
 				564B16AE24C7280800BC6330 /* RecordTableViewController.swift */,
 			);
@@ -238,6 +231,7 @@
 				TargetAttributes = {
 					564B166C24C725BD00BC6330 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1160;
 					};
 					564B168524C725C600BC6330 = {
 						CreatedOnToolsVersion = 11.5;
@@ -276,6 +270,7 @@
 			files = (
 				564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */,
 				564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */,
+				563ED58D24C78EDC00D335A9 /* example.rtf in Resources */,
 				564B167A24C725C600BC6330 /* Assets.xcassets in Resources */,
 				564B16AB24C7271400BC6330 /* Main.storyboard in Resources */,
 			);
@@ -306,7 +301,11 @@
 				564B16B424C7283E00BC6330 /* HistoryCellTableViewCell.swift in Sources */,
 				564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */,
 				564B167824C725BD00BC6330 /* ContentView.swift in Sources */,
+				563ED58924C7770F00D335A9 /* MBProgressHUD.m in Sources */,
+				563ED58424C775C500D335A9 /* BluetoothSerial.swift in Sources */,
 				564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */,
+				563ED58B24C77DA800D335A9 /* ScannerViewController.swift in Sources */,
+				563ED58224C774F200D335A9 /* SerialViewController.swift in Sources */,
 				564B16B524C7283E00BC6330 /* EventRecord.swift in Sources */,
 				564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */,
 				564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */,
@@ -317,7 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564B168B24C725C600BC6330 /* HeartAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564B169624C725C700BC6330 /* HeartAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartApp/Preview Content\"";
 				DEVELOPMENT_TEAM = SKB33M7Y5A;
@@ -493,6 +491,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartApp/HeartApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -502,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartApp/Preview Content\"";
 				DEVELOPMENT_TEAM = SKB33M7Y5A;
@@ -513,6 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartApp/HeartApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
