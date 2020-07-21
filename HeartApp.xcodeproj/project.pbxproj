@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167024C725BD00BC6330 /* AppDelegate.swift */; };
+		564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167224C725BD00BC6330 /* SceneDelegate.swift */; };
+		564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */; };
+		564B167824C725BD00BC6330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167724C725BD00BC6330 /* ContentView.swift */; };
+		564B167A24C725C600BC6330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B167924C725C600BC6330 /* Assets.xcassets */; };
+		564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B167C24C725C600BC6330 /* Preview Assets.xcassets */; };
+		564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B167E24C725C600BC6330 /* LaunchScreen.storyboard */; };
+		564B168B24C725C600BC6330 /* HeartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B168A24C725C600BC6330 /* HeartAppTests.swift */; };
+		564B169624C725C700BC6330 /* HeartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B169524C725C700BC6330 /* HeartAppUITests.swift */; };
+		564B16AB24C7271400BC6330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B16A924C7271400BC6330 /* Main.storyboard */; };
+		564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AD24C7280800BC6330 /* MainViewController.swift */; };
+		564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AE24C7280800BC6330 /* RecordTableViewController.swift */; };
+		564B16B424C7283E00BC6330 /* HistoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16B224C7283E00BC6330 /* HistoryCellTableViewCell.swift */; };
+		564B16B524C7283E00BC6330 /* EventRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16B324C7283E00BC6330 /* EventRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564B168724C725C600BC6330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B166524C725BD00BC6330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B166C24C725BD00BC6330;
+			remoteInfo = HeartApp;
+		};
+		564B169224C725C700BC6330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B166524C725BD00BC6330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B166C24C725BD00BC6330;
+			remoteInfo = HeartApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564B166D24C725BD00BC6330 /* HeartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B167024C725BD00BC6330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564B167224C725BD00BC6330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		564B167524C725BD00BC6330 /* HeartApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartApp.xcdatamodel; sourceTree = "<group>"; };
+		564B167724C725BD00BC6330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		564B167924C725C600BC6330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564B167C24C725C600BC6330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		564B167F24C725C600BC6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564B168124C725C600BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B168624C725C600BC6330 /* HeartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B168A24C725C600BC6330 /* HeartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAppTests.swift; sourceTree = "<group>"; };
+		564B168C24C725C600BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B169124C725C600BC6330 /* HeartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B169524C725C700BC6330 /* HeartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAppUITests.swift; sourceTree = "<group>"; };
+		564B169724C725C700BC6330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B16AA24C7271400BC6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564B16AD24C7280800BC6330 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		564B16AE24C7280800BC6330 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		564B16B224C7283E00BC6330 /* HistoryCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCellTableViewCell.swift; sourceTree = "<group>"; };
+		564B16B324C7283E00BC6330 /* EventRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564B166A24C725BD00BC6330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168324C725C600BC6330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168E24C725C600BC6330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564B166424C725BD00BC6330 = {
+			isa = PBXGroup;
+			children = (
+				564B166F24C725BD00BC6330 /* HeartApp */,
+				564B168924C725C600BC6330 /* HeartAppTests */,
+				564B169424C725C700BC6330 /* HeartAppUITests */,
+				564B166E24C725BD00BC6330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564B166E24C725BD00BC6330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564B166D24C725BD00BC6330 /* HeartApp.app */,
+				564B168624C725C600BC6330 /* HeartAppTests.xctest */,
+				564B169124C725C600BC6330 /* HeartAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564B166F24C725BD00BC6330 /* HeartApp */ = {
+			isa = PBXGroup;
+			children = (
+				564B167024C725BD00BC6330 /* AppDelegate.swift */,
+				564B167224C725BD00BC6330 /* SceneDelegate.swift */,
+				564B167724C725BD00BC6330 /* ContentView.swift */,
+				564B167E24C725C600BC6330 /* LaunchScreen.storyboard */,
+				564B16A924C7271400BC6330 /* Main.storyboard */,
+				564B168124C725C600BC6330 /* Info.plist */,
+				564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */,
+				564B167924C725C600BC6330 /* Assets.xcassets */,
+				564B16B124C7283E00BC6330 /* Custom Cells */,
+				564B16AC24C7280800BC6330 /* View Controllers */,
+				564B167B24C725C600BC6330 /* Preview Content */,
+			);
+			path = HeartApp;
+			sourceTree = "<group>";
+		};
+		564B167B24C725C600BC6330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				564B167C24C725C600BC6330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		564B168924C725C600BC6330 /* HeartAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				564B168A24C725C600BC6330 /* HeartAppTests.swift */,
+				564B168C24C725C600BC6330 /* Info.plist */,
+			);
+			path = HeartAppTests;
+			sourceTree = "<group>";
+		};
+		564B169424C725C700BC6330 /* HeartAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564B169524C725C700BC6330 /* HeartAppUITests.swift */,
+				564B169724C725C700BC6330 /* Info.plist */,
+			);
+			path = HeartAppUITests;
+			sourceTree = "<group>";
+		};
+		564B16AC24C7280800BC6330 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				564B16AD24C7280800BC6330 /* MainViewController.swift */,
+				564B16AE24C7280800BC6330 /* RecordTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		564B16B124C7283E00BC6330 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				564B16B224C7283E00BC6330 /* HistoryCellTableViewCell.swift */,
+				564B16B324C7283E00BC6330 /* EventRecord.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564B166C24C725BD00BC6330 /* HeartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B169A24C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartApp" */;
+			buildPhases = (
+				564B166924C725BD00BC6330 /* Sources */,
+				564B166A24C725BD00BC6330 /* Frameworks */,
+				564B166B24C725BD00BC6330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartApp;
+			productName = HeartApp;
+			productReference = 564B166D24C725BD00BC6330 /* HeartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564B168524C725C600BC6330 /* HeartAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B169D24C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartAppTests" */;
+			buildPhases = (
+				564B168224C725C600BC6330 /* Sources */,
+				564B168324C725C600BC6330 /* Frameworks */,
+				564B168424C725C600BC6330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B168824C725C600BC6330 /* PBXTargetDependency */,
+			);
+			name = HeartAppTests;
+			productName = HeartAppTests;
+			productReference = 564B168624C725C600BC6330 /* HeartAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564B169024C725C600BC6330 /* HeartAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B16A024C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartAppUITests" */;
+			buildPhases = (
+				564B168D24C725C600BC6330 /* Sources */,
+				564B168E24C725C600BC6330 /* Frameworks */,
+				564B168F24C725C600BC6330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B169324C725C700BC6330 /* PBXTargetDependency */,
+			);
+			name = HeartAppUITests;
+			productName = HeartAppUITests;
+			productReference = 564B169124C725C600BC6330 /* HeartAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564B166524C725BD00BC6330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Omar Fierros";
+				TargetAttributes = {
+					564B166C24C725BD00BC6330 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					564B168524C725C600BC6330 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 564B166C24C725BD00BC6330;
+					};
+					564B169024C725C600BC6330 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 564B166C24C725BD00BC6330;
+					};
+				};
+			};
+			buildConfigurationList = 564B166824C725BD00BC6330 /* Build configuration list for PBXProject "HeartApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564B166424C725BD00BC6330;
+			productRefGroup = 564B166E24C725BD00BC6330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564B166C24C725BD00BC6330 /* HeartApp */,
+				564B168524C725C600BC6330 /* HeartAppTests */,
+				564B169024C725C600BC6330 /* HeartAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564B166B24C725BD00BC6330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */,
+				564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */,
+				564B167A24C725C600BC6330 /* Assets.xcassets in Resources */,
+				564B16AB24C7271400BC6330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168424C725C600BC6330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168F24C725C600BC6330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564B166924C725BD00BC6330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */,
+				564B16B424C7283E00BC6330 /* HistoryCellTableViewCell.swift in Sources */,
+				564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */,
+				564B167824C725BD00BC6330 /* ContentView.swift in Sources */,
+				564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */,
+				564B16B524C7283E00BC6330 /* EventRecord.swift in Sources */,
+				564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */,
+				564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168224C725C600BC6330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B168B24C725C600BC6330 /* HeartAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B168D24C725C600BC6330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B169624C725C700BC6330 /* HeartAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564B168824C725C600BC6330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B166C24C725BD00BC6330 /* HeartApp */;
+			targetProxy = 564B168724C725C600BC6330 /* PBXContainerItemProxy */;
+		};
+		564B169324C725C700BC6330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B166C24C725BD00BC6330 /* HeartApp */;
+			targetProxy = 564B169224C725C700BC6330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564B167E24C725C600BC6330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B167F24C725C600BC6330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		564B16A924C7271400BC6330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B16AA24C7271400BC6330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564B169824C725C700BC6330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564B169924C725C700BC6330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564B169B24C725C700BC6330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564B169C24C725C700BC6330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564B169E24C725C700BC6330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				INFOPLIST_FILE = HeartAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartApp.app/HeartApp";
+			};
+			name = Debug;
+		};
+		564B169F24C725C700BC6330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				INFOPLIST_FILE = HeartAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartApp.app/HeartApp";
+			};
+			name = Release;
+		};
+		564B16A124C725C700BC6330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				INFOPLIST_FILE = HeartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartApp;
+			};
+			name = Debug;
+		};
+		564B16A224C725C700BC6330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKB33M7Y5A;
+				INFOPLIST_FILE = HeartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omar.HeartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564B166824C725BD00BC6330 /* Build configuration list for PBXProject "HeartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B169824C725C700BC6330 /* Debug */,
+				564B169924C725C700BC6330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B169A24C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B169B24C725C700BC6330 /* Debug */,
+				564B169C24C725C700BC6330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B169D24C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B169E24C725C700BC6330 /* Debug */,
+				564B169F24C725C700BC6330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B16A024C725C700BC6330 /* Build configuration list for PBXNativeTarget "HeartAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B16A124C725C700BC6330 /* Debug */,
+				564B16A224C725C700BC6330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				564B167524C725BD00BC6330 /* HeartApp.xcdatamodel */,
+			);
+			currentVersion = 564B167524C725BD00BC6330 /* HeartApp.xcdatamodel */;
+			path = HeartApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 564B166524C725BD00BC6330 /* Project object */;
+}

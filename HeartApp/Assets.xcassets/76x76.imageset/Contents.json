@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Algo logo 76x76 copy 2-1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Algo logo 76x76 copy 2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Algo logo 76x76 copy 2-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
