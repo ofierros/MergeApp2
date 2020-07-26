@@ -12,6 +12,8 @@
 		563ED58924C7770F00D335A9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58824C7770F00D335A9 /* MBProgressHUD.m */; };
 		563ED58B24C77DA800D335A9 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58A24C77DA800D335A9 /* ScannerViewController.swift */; };
 		563ED58D24C78EDC00D335A9 /* example.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 563ED58C24C78EDC00D335A9 /* example.rtf */; };
+		563ED58F24C7CDC900D335A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED58E24C7CDC900D335A9 /* MainViewController.swift */; };
+		563ED59124C7CDDB00D335A9 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563ED59024C7CDDB00D335A9 /* RecordTableViewController.swift */; };
 		564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167024C725BD00BC6330 /* AppDelegate.swift */; };
 		564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B167224C725BD00BC6330 /* SceneDelegate.swift */; };
 		564B167624C725BD00BC6330 /* HeartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 564B167424C725BD00BC6330 /* HeartApp.xcdatamodeld */; };
@@ -20,8 +22,6 @@
 		564B167D24C725C600BC6330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B167C24C725C600BC6330 /* Preview Assets.xcassets */; };
 		564B168024C725C600BC6330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B167E24C725C600BC6330 /* LaunchScreen.storyboard */; };
 		564B16AB24C7271400BC6330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B16A924C7271400BC6330 /* Main.storyboard */; };
-		564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AD24C7280800BC6330 /* MainViewController.swift */; };
-		564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16AE24C7280800BC6330 /* RecordTableViewController.swift */; };
 		564B16B424C7283E00BC6330 /* HistoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16B224C7283E00BC6330 /* HistoryCellTableViewCell.swift */; };
 		564B16B524C7283E00BC6330 /* EventRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B16B324C7283E00BC6330 /* EventRecord.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +51,8 @@
 		563ED58824C7770F00D335A9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		563ED58A24C77DA800D335A9 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		563ED58C24C78EDC00D335A9 /* example.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = example.rtf; sourceTree = "<group>"; };
+		563ED58E24C7CDC900D335A9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		563ED59024C7CDDB00D335A9 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		564B166D24C725BD00BC6330 /* HeartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B167024C725BD00BC6330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564B167224C725BD00BC6330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +65,6 @@
 		564B168624C725C600BC6330 /* HeartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B169124C725C600BC6330 /* HeartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B16AA24C7271400BC6330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		564B16AD24C7280800BC6330 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		564B16AE24C7280800BC6330 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		564B16B224C7283E00BC6330 /* HistoryCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCellTableViewCell.swift; sourceTree = "<group>"; };
 		564B16B324C7283E00BC6330 /* EventRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,10 +146,10 @@
 		564B16AC24C7280800BC6330 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				563ED59024C7CDDB00D335A9 /* RecordTableViewController.swift */,
+				563ED58E24C7CDC900D335A9 /* MainViewController.swift */,
 				563ED58A24C77DA800D335A9 /* ScannerViewController.swift */,
 				563ED58124C774F200D335A9 /* SerialViewController.swift */,
-				564B16AD24C7280800BC6330 /* MainViewController.swift */,
-				564B16AE24C7280800BC6330 /* RecordTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -298,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				564B167124C725BD00BC6330 /* AppDelegate.swift in Sources */,
+				563ED58F24C7CDC900D335A9 /* MainViewController.swift in Sources */,
 				564B16B424C7283E00BC6330 /* HistoryCellTableViewCell.swift in Sources */,
 				564B167324C725BD00BC6330 /* SceneDelegate.swift in Sources */,
+				563ED59124C7CDDB00D335A9 /* RecordTableViewController.swift in Sources */,
 				564B167824C725BD00BC6330 /* ContentView.swift in Sources */,
 				563ED58924C7770F00D335A9 /* MBProgressHUD.m in Sources */,
 				563ED58424C775C500D335A9 /* BluetoothSerial.swift in Sources */,
@@ -307,8 +309,6 @@
 				563ED58B24C77DA800D335A9 /* ScannerViewController.swift in Sources */,
 				563ED58224C774F200D335A9 /* SerialViewController.swift in Sources */,
 				564B16B524C7283E00BC6330 /* EventRecord.swift in Sources */,
-				564B16B024C7280800BC6330 /* RecordTableViewController.swift in Sources */,
-				564B16AF24C7280800BC6330 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +485,7 @@
 				DEVELOPMENT_TEAM = SKB33M7Y5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HeartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +509,7 @@
 				DEVELOPMENT_TEAM = SKB33M7Y5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HeartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
