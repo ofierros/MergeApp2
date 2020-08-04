@@ -12,19 +12,9 @@ import CoreData
 let MessageOptionKey = "MessageOption"
 let ReceivedMessageOptionKey = "ReceivedMessageOption"
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    var window: UIWindow?
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-        // register default user prefs
-        UserDefaults.standard.register(defaults: [MessageOptionKey: MessageOption.noLineEnding.rawValue,
-                                          ReceivedMessageOptionKey: ReceivedMessageOption.none.rawValue])
-        
-        return true
-    }
     
     /*lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "EventData")
@@ -41,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     */
-    /*
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         /*
@@ -49,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             rootVC.container = persistentContainer
         }*/
         return true
-    }*/
+    }
 
     // MARK: UISceneSession Lifecycle
 
@@ -67,4 +57,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

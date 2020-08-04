@@ -14,10 +14,10 @@ class RecordTableViewController: UITableViewController {
     
     //MARK: Properties
     
-    var sampEvents = Array<EventRecord?>()
+    var eventArray = Array<EventRecord?>()
     
     override func viewDidLoad() {
-        super.viewDidLoad()  
+        super.viewDidLoad()
         
         
         // Uncomment the following line to preserve selection between presentations
@@ -35,7 +35,7 @@ class RecordTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return sampEvents.count
+        return eventArray.count
     }
 
     
@@ -48,7 +48,7 @@ class RecordTableViewController: UITableViewController {
             fatalError("The dequeued cell is not an instance of HistoryCellTableViewCell")
         }
             
-        let event = self.sampEvents[indexPath.row]
+        let event = self.eventArray[indexPath.row]
         cell.nameLabel.text = event?.name
         cell.dateLabel.text = event?.date
         cell.timeLabel.text = event?.time
@@ -71,7 +71,7 @@ class RecordTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
